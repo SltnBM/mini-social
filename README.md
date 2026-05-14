@@ -70,3 +70,19 @@ http://localhost/mini-social-app
 6. Register a new account and start using the app.
 
 ---
+
+## Security Notes
+- Passwords should be hashed using password_hash()
+- Always validate user input
+- Use prepared statements (PDO/MySQLi) to prevent SQL Injection
+- Restrict file upload types for security
+
+---
+
+## Connect With Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sultan%20Badra-blue?logo=linkedin\&logoColor=white\&style=flat-square)](https://www.linkedin.com/in/sultan-badra)
+
+---
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
