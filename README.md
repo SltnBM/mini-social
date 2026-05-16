@@ -21,7 +21,7 @@ A simple PHP-based mini social media web application. This project allows users 
 ---
 
 ## How to Use
-1. Make sure Python is installed (Python 3 or higher recommended). Download it from [python.org](https://www.python.org/downloads/).
+1. Make sure PHP, MySQL/MariaDB, and Apache/Nginx are installed.
 2. Clone this repository
 ```bash
 git clone https://github.com/SltnBM/mini-social.git
