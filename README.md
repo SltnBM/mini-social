@@ -65,7 +65,7 @@ config/db.php
 ```
 5. Run the project in browser.
 ```bash
-http://localhost/mini-social-app
+http://localhost/mini-social
 ```
 6. Register a new account and start using the app.
 
