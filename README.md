@@ -59,15 +59,28 @@ CREATE TABLE posts (
         ON DELETE CASCADE
 );
 ```
-4. Configure database connection.
+5. Configure database connection.
 ```bash
 config/db.php
 ```
-5. Run the project in browser.
+Example :
+```bash
+<?php
+$pdo = new PDO(
+    "mysql:host=localhost;dbname=mini_social",
+    "root",
+    ""
+);
+
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+?>
+```
+
+6. Run the project in browser.
 ```bash
 http://localhost/mini-social
 ```
-6. Register a new account and start using the app.
+7. Register a new account and start using the app.
 
 ---
 
